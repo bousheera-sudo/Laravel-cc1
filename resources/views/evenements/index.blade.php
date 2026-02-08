@@ -33,7 +33,7 @@
                     <td>{{ number_format($evenement->cout_journalier, 2) }} MAD</td>
                     <td>
                         @if($evenement->expert)
-                            <span class="badge bg-light text-dark border">{{ $evenement->expert->prenomExp }} {{ $evenement->expert->nomExp }}</span>
+                            <span class="badge bg-primary-soft">{{ $evenement->expert->prenomExp }} {{ $evenement->expert->nomExp }}</span>
                         @else
                             <span class="text-muted">N/A</span>
                         @endif
